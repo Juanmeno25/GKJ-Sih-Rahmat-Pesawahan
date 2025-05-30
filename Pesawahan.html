@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+ <meta charset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+ <title>GKJ Sih Rahmat Pesawahan</title>
+ <meta name="description" content="Website resmi GKJ Sih Rahmat Pesawahan" />
+ <style>
+body {
+ font-family: "Times New Roman", serif;
+ background-color: #f0f2f5;
+ color: #333;
+ margin: 0;
+ padding: 0;
+ animation: fadeIn 1.5s ease;
+ }
+ header {
+ background-color: #4CAF50;
+ color: white;
+ padding: 20px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ animation: slideDown 1s ease-out;
+ }
+ nav {
+ margin-top: 10px;
+ }
+ nav a {
+ margin: 0 10px;
+color: white;
+ text-decoration: none;
+ font-weight: bold;
+ padding: 8px 15px;
+ border-radius: 5px;
+ background-color: #388E3C; /* hijau lebih gelap */
+ transition: background-color 0.3s;
+ }
+ nav a:hover {
+ background-color: #2E7D32;
+ text-decoration: none;
+ }
+ main {
+   padding: 40px 20px;
+ }
+  .content-container {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ gap: 40px;
+ align-items: flex-start;
+ }
+ .image-box img {
+   width: 500px;
+      border-radius: 10px;
+      animation: fadeInUp 1.2s ease;
+    }
+    .info-box {
+      max-width: 400px;
+      text-align: left;
+      animation: fadeInUp 1.2s ease;
+    }
+    h2 {
+      color: #333;
+    }
+    .kontak, .pendeta, .jadwal {
+      margin-top: 30px;
+    }
+    .kontak p, .pendeta p, .jadwal p {
+      margin: 6px 0;
+    }
+    a {
+      color: #4CAF50;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .sejarah {
+      max-width: 800px;
+      margin: 50px auto 0;
+      padding: 20px;
+      text-align: justify;
+      animation: fadeInUp 1.2s ease;
+    }
+    footer {
+      text-align: center;
+      font-size: 14px;
+      color: #888;
+      margin-top: 40px;
+      padding: 10px 0;
+    }
+    /* Animasi */
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes slideDown {
+      from { transform: translateY(-30px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+    @keyframes fadeInUp {
+      from { transform: translateY(20px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Selamat Datang di GKJ Sih Rahmat Pesawahan</h1>
+    <nav>
+      <a href="#">Beranda</a>
+      <a href="https://drive.google.com/drive/my-drive?hl=ID" target="_blank" rel="noopener noreferrer">
+        Galeri &#8599;
+      </a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="content-container">
+      <div class="image-box">
+        <img src="gereja.png" alt="GKJ Sih Rahmat Pesawahan" />
+      </div>
+
+      <div class="info-box">
+        <div class="kontak">
+          <h2>Kontak</h2>
+          <p><strong>Alamat   :</strong>
+            <a href="https://www.google.com/maps/place/GKJ+Sih+Rahmat/@-7.6704198,109.3002,173m/data=!3m1!1e3!4m6!3m5!1s0x2e65475b4646610f:0xe992acbb4041ee23!8m2!3d-7.6703492!4d109.2996336!16s%2Fg%2F11b6sw43nw?entry=ttu&g_ep=EgoyMDI1MDUyNy4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">
+              GKJ Sih Rahmat Pesawahan
+            </a>
+          </p>
+          <p><strong>No. WA   :</strong>
+            <a href="https://wa.me/6282135145487" target="_blank" rel="noopener noreferrer">
+              Adi Tjahjono
+            </a>
+          </p>
+          <p><strong>Instagram:</strong>
+            <a href="https://www.instagram.com/gkj_sih_rahmat_pesawahan?igsh=NmdjYzJ3ZXBkNDg1" target="_blank" rel="noopener noreferrer">
+              @GKJ Sih Rahmat Pesawahan
+            </a>
+          </p>
+        </div>
+
+        <div class="pendeta">
+          <h2>Pendeta</h2>
+          <p>-</p>
+        </div>
+
+        <div class="jadwal">
+          <h2>Jadwal Ibadah</h2>
+          <p><strong>Hari     :</strong> Minggu</p>
+          <p><strong>Dewasa   :</strong> 08.00 - 10.00</p>
+          <p><strong>Anak-anak:</strong> 08.00 - 09.00</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="sejarah">
+      <h2 style="text-align: center;">Sejarah</h2>
+      <p>-</p>
+    </div>
+
+  </main>
+
+  <footer>
+    © Web ini dibuat oleh GKJ Sih Rahmat Pesawahan
+  </footer>
+
+</body>
+</html>
